@@ -8,10 +8,15 @@ export default function Dictionary() {
     event.preventDefault();
     alert("Searching");
   }
+
+  function handleKeywordChange(event) {
+    console.log(event);
+  }
+
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input type="search" />
+        <input type="search" onChange={handleKeywordChange} />
       </form>
     </div>
   );
