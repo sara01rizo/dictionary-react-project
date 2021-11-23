@@ -11,9 +11,7 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
-        <a href="#" className="btn btn-primary">
-          Hello
-        </a>
+        Hello
         <main>
           <Dictionary />
         </main>
@@ -21,11 +19,19 @@ export default function App() {
           {" "}
           <span>
             This project was coded by{" "}
-            <a href="#" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/sara-andrea-pulido-buenrostro-750b181b3/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Sara Pulido
             </a>{" "}
             and is open-sourced on{" "}
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/sara01rizo/dictionary-react-project"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
           </span>
