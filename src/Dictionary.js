@@ -14,7 +14,7 @@ export default function Dictionary() {
   }
 
   function handleResponse(response) {
-    console.log(response);
+    console.log(response.data[0]);
   }
 
   function handleKeywordChange(event) {
