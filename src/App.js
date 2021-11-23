@@ -21,11 +21,11 @@ export default function App() {
           {" "}
           <span>
             This project was coded by{" "}
-            <a href="#" target="_blank">
+            <a href="#" target="_blank" rel="noreferrer">
               Sara Pulido
             </a>{" "}
             and is open-sourced on{" "}
-            <a href="" target="_blank">
+            <a href="" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </span>
