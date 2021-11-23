@@ -7,3 +7,9 @@
   display: block;
   margin: 0 auto;
 }
+
+footer {
+  text-align: center;
+  color: grey;
+  font-size: small;
+}
