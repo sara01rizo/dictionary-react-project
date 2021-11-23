@@ -7,10 +7,13 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword} definition`);
+    alert( `Searching for ${ keyword } definition` );
+    
+    // dictionary API integration //
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    axios.get(apiUrl).then(handleResponse);
+    axios.get( apiUrl ).then( handleResponse );
+    
   }
 
   function handleResponse(response) {
