@@ -5,7 +5,7 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-  let [results, setRessults] = useState({});
+  let [results, setRessults] = useState(null);
 
   function search(event) {
     event.preventDefault();
