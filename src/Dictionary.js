@@ -5,7 +5,7 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-  let [results, setRessults] = useState(null);
+  let [results, setResults] = useState(null);
 
   function search(event) {
     event.preventDefault();
@@ -18,8 +18,8 @@ export default function Dictionary() {
   }
 
   function handleResponse(response) {
-    console.log(response.data[0]);
-    setRessults(response.data[0].meanings[0].definitions[0].definition);
+    // console.log(response.data[0]);
+    setResults(response.data[0]);
   }
 
   function handleKeywordChange(event) {
