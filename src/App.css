@@ -8,8 +8,18 @@
   margin: 0 auto;
 }
 
+h1 {
+  text-align: center;
+  color: #86bb36;
+  text-shadow: #6a9925;
+  margin: 30px 0;
+  padding: 12px 0;
+}
+
 footer {
   text-align: center;
   color: grey;
   font-size: small;
+  margin: 30px 0;
+  padding: 12px 0;
 }
