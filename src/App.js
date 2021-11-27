@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Spinner from "./Spinner";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
+          <Spinner />
           <Dictionary />
         </main>
         <footer>
@@ -31,7 +33,7 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
             >
-            GitHub{" "}
+              GitHub{" "}
             </a>
             and hosted on{" "}
             <a
@@ -39,7 +41,7 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
             >
-            Netlify
+              Netlify
             </a>
           </span>
         </footer>
