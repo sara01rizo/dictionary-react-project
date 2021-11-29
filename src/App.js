@@ -49,7 +49,7 @@ export default function App() {
             >
               GitHub{" "}
             </a>
-            and hosted on{" "}
+            hosted on{" "}
             <a
               href="https://determined-aryabhata-ee710f.netlify.app/"
               target="_blank"
