@@ -6,8 +6,14 @@ import Spinner from "./Spinner";
 import swal from "sweetalert2";
 
 export default function App() {
-  const showAlert =()=> {
-   new swal("This is an Alert");
+  const showAlert = () => {
+    new swal({
+      title: "This ist the title",
+      text: "This is text",
+      icon: "success",
+      button: "Agree",
+      timer: "3000",
+    });
   };
 
   return (
