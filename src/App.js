@@ -3,11 +3,19 @@ import logo from "./logo.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Spinner from "./Spinner";
+import swal from "sweetalert2";
 
 export default function App() {
+  const showAlert =()=> {
+   new swal("This is an Alert");
+  };
+
   return (
     <div className="App">
       <div className="container">
+        <br />
+        <button onClick={() => showAlert()}>Show Alert</button>
+
         <h1>Dictionary React Project</h1>
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
