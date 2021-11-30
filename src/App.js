@@ -5,6 +5,7 @@ import Dictionary from "./Dictionary";
 import Spinner from "./Spinner";
 import swal from "sweetalert2";
 
+
 export default function App() {
   const showAlert = () => {
     new swal({
@@ -20,7 +21,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <br />
-        <button className="btn btn-success" onClick={() => showAlert()}>Search</button>
+        <button className="btn btn-success" onClick={() => showAlert()}>
+          Search
+        </button>
 
         <h1>Dictionary React Project</h1>
         <header className="App-header">
