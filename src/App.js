@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.jpg";
+import logo from "./images/logo.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Spinner from "./Spinner";
@@ -20,7 +20,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <br />
-        <button onClick={() => showAlert()}>Show Alert</button>
+        <button className="btn btn-success" onClick={() => showAlert()}>Search</button>
 
         <h1>Dictionary React Project</h1>
         <header className="App-header">
