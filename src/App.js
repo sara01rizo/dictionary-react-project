@@ -5,6 +5,8 @@ import Dictionary from "./Dictionary";
 import Spinner from "./Spinner";
 import swal from "sweetalert2";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import UserProfile from "./UserProfile";
 
 export default function App() {
   const showAlert = () => {
@@ -24,12 +26,12 @@ export default function App() {
         <button className="btn btn-success" onClick={() => showAlert()}>
           Search
         </button>
-
         <h1>Dictionary React Project</h1>
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
+          <UserProfile />
           <Spinner />
           <Dictionary />
         </main>
