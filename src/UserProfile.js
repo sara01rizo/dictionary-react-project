@@ -1,18 +1,31 @@
 import React from "react";
-import "./Icons.css"
+import "./Icons.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faAnchor } from "@fortawesome/free-solid-svg-icons";
+import { faAnchor } from "@fortawesome/free-solid-svg-icons";
 
 class UserProfile extends React.Component {
   render() {
     return (
       <div className="Icons">
         <span>
-          <FontAwesomeIcon icon={<i class="fab fa-github"></i>} color="green" />{" "}
-          GitHub 
+          Open-source {" "}
+          <a
+            href="https://github.com/sara01rizo/dictionary-react-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub{" "}
+          </a>{" "}
         </span>
         <span>
-          <FontAwesomeIcon icon={faAnchor} color="green" /> Linkedin
+          <FontAwesomeIcon icon={faAnchor} color="green" /> Visit my{" "}
+          <a
+            href="https://www.linkedin.com/in/sara-andrea-pulido-buenrostro-750b181b3/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>{" "}
         </span>
       </div>
     );
