@@ -2,13 +2,14 @@ import React from "react";
 import "./Icons.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnchor } from "@fortawesome/free-solid-svg-icons";
+import "./UserProfile.css";
 
 class UserProfile extends React.Component {
   render() {
     return (
       <div className="Icons">
         <span>
-          Open-source {" "}
+          Open-source{" "}
           <a
             href="https://github.com/sara01rizo/dictionary-react-project"
             target="_blank"

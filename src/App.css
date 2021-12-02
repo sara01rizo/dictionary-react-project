@@ -1,5 +1,5 @@
 body {
-  background: rgb(253, 253, 253);
+  background: #fff;
 }
 
 .App {
@@ -28,9 +28,9 @@ body {
   padding: 12px;
   color: #fff;
   border-radius: 7px;
-
   transition: all 1ms ease-in-out;
-  background: green;
+  background: rgb(7, 173, 7);
+  box-shadow: 1px 1px;
 }
 
 .btn__alert:hover {
