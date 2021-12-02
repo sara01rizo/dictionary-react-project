@@ -10,7 +10,7 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-   // alert(`Searching for ${keyword} definition`);
+    // alert(`Searching for ${keyword} definition`);
 
     // dictionary API integration //
 
@@ -30,6 +30,7 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <section>
+        <h1>What word do you want to look up?</h1>
         <form className="Dictionary-form" onSubmit={search}>
           <input type="search" onChange={handleKeywordChange} />
         </form>
