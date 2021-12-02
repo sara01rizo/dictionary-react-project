@@ -8,6 +8,26 @@
   margin: 0 auto;
 }
 
+.btn__alert {
+  width: 199px;
+  height: 47px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 3px 3px 3px 3px;
+  padding: 12px;
+  color: #fff;
+  border-radius: 7px;
+
+  transition: all 1ms ease-in-out;
+  background: green;
+}
+
+.btn__alert:hover {
+  color: #282828;
+}
+
 h1 {
   text-align: center;
   color: rgb(48, 124, 99);

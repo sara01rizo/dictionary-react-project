@@ -10,11 +10,11 @@ import UserProfile from "./UserProfile";
 export default function App() {
   const showAlert = () => {
     new swal({
-      title: "This ist the title",
-      text: "This is text",
+      title: "Absolutly",
+      text: "You will be lucky all week long! 💚",
       icon: "success",
       button: "Agree",
-      timer: "3000",
+      timer: "5000",
     });
   };
 
@@ -22,9 +22,16 @@ export default function App() {
     <div className="App">
       <div className="container">
         <br />
-        <button className="btn btn-success" onClick={() => showAlert()}>
-          Search
-        </button>
+        <div className="row">
+          <div className="center__btn">
+            <button
+              className="mx-auto d-block btn__alert"
+              onClick={() => showAlert()}
+            >
+              🍀Will I get lucky today?
+            </button>
+          </div>
+        </div>
         <h1>Dictionary React Project</h1>
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
@@ -51,7 +58,7 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
             >
-              GitHub{" "} 
+              GitHub{" "}
             </a>
             hosted on{" "}
             <a

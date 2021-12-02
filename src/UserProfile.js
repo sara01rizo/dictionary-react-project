@@ -1,17 +1,19 @@
 import React from "react";
+import "./Icons.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAmbulance, faAnchor } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faAnchor } from "@fortawesome/free-solid-svg-icons";
 
 class UserProfile extends React.Component {
   render() {
     return (
-      <div>
-        <h4>
-          <FontAwesomeIcon icon={faAmbulance} color="green" /> Ambulance Icon
-        </h4>
-        <h4>
-          <FontAwesomeIcon icon={faAnchor} color="yellow" /> Anchor Icon
-        </h4>
+      <div className="Icons">
+        <span>
+          <FontAwesomeIcon icon={<i class="fab fa-github"></i>} color="green" />{" "}
+          GitHub 
+        </span>
+        <span>
+          <FontAwesomeIcon icon={faAnchor} color="green" /> Linkedin
+        </span>
       </div>
     );
   }
