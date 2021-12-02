@@ -4,8 +4,7 @@ import "./App.css";
 import Dictionary from "./Dictionary";
 import Spinner from "./Spinner";
 import swal from "sweetalert2";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import UserProfile from "./UserProfile";
 
 export default function App() {
@@ -52,7 +51,7 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
             >
-              GitHub{" "}
+              GitHub{" "} 
             </a>
             hosted on{" "}
             <a
