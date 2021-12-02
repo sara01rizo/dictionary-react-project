@@ -10,7 +10,7 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword} definition`);
+   // alert(`Searching for ${keyword} definition`);
 
     // dictionary API integration //
 

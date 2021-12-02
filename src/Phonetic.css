@@ -9,6 +9,8 @@
   border: 1px solid #fff;
   border-radius: 15px;
   transition: all 150ms ease-in-out;
+  text-decoration: none;
+  margin-right: 15px;
 }
 
 .Phonetic a:hover {
