@@ -20,6 +20,15 @@ body {
   margin: 0 auto;
 }
 
+main {
+  background-image: url(images/logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+}
+
 .btn__alert {
   width: 199px;
   height: 47px;
@@ -40,6 +49,22 @@ body {
   color: #282828;
 }
 
+a{
+  position: relative;
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+a:after {
+  position: absolute;
+  background-color: red;
+  height: 3px;
+  width: 100%;
+
+
+}
 h1 {
   text-align: center;
   color: rgb(112, 131, 125);
@@ -50,7 +75,7 @@ h1 {
 
 footer {
   text-align: center;
-  color: grey;
+  color: #ddd;
   font-size: small;
   margin: 30px 0;
   padding: 12px 0;
