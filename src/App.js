@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./images/logo.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Spinner from "./Spinner";
@@ -33,9 +32,7 @@ export default function App() {
           </div>
         </div>
         <h1>Dictionary React Project</h1>
-        <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
-        </header>
+        <header className="App-header"></header>
         <main>
           <UserProfile />
           <Spinner />
